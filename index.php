@@ -40,11 +40,3 @@ $stmt = $pdo->query("SELECT * FROM movies");
         <?php foreach ($stmt as $row): ?>
             <tr>
                 <td><?= htmlspecialchars($row['id']) ?></td>
-                <td><?= htmlspecialchars($row['title']) ?></td>
-                <td><?= htmlspecialchars($row['director']) ?></td>
-                <td><?= htmlspecialchars($row['year']) ?></td>
-            </tr>
-        <?php endforeach; ?>
-    </table>
-</body>
-</html>
