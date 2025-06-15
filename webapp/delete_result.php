@@ -4,3 +4,4 @@ $stmt = $pdo->prepare("DELETE FROM movies WHERE id=?");
 $stmt->execute([$_POST["id"]]);
 header("Location: select_all.php");
 ?>
+<!-- Finish! -->

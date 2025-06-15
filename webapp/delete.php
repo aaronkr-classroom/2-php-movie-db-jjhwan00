@@ -14,3 +14,4 @@ $row = $stmt->fetch();
     연도: <?= $row["year"] ?><br>
     <input type="submit" value="삭제 확인">
 </form></body></html>
+<!-- Finish! -->

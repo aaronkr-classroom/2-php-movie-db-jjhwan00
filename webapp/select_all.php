@@ -16,3 +16,4 @@ $stmt = $pdo->query("SELECT * FROM movies");
 <td><a href="update_select.php?id=<?= $row["id"] ?>">수정</a></td>
 <td><a href="delete_select.php?id=<?= $row["id"] ?>">삭제</a></td>
 </tr><?php endforeach; ?></table></body></html>
+<!-- Finish! -->

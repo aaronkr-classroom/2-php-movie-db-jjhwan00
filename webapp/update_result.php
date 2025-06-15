@@ -4,3 +4,4 @@ $stmt = $pdo->prepare("UPDATE movies SET title=?, director=?, year=? WHERE id=?"
 $stmt->execute([$_POST["title"], $_POST["director"], $_POST["year"], $_POST["id"]]);
 header("Location: select_all.php");
 ?>
+<!-- Finish! -->
